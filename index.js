@@ -3,7 +3,7 @@
 var util    = require("util");
 var os      = require("os");
 var winston = require("winston");
-var _       = require("underscore");
+var _       = require("lodash");
 
 function template(text, obj) {
     return _.template(text, obj, {
